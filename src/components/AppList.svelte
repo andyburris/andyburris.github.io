@@ -1,7 +1,7 @@
 <script>
   import AppItem from "./AppItem.svelte";
   import { stores } from "@sapper/app";
-  import { apps } from "../routes/apps/_apps.js";
+  import { apps } from "../routes/apps.js";
   import { sharedin, sharedout } from "./mjukna-transition.js";
 </script>
 

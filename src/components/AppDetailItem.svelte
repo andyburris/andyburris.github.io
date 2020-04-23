@@ -8,8 +8,8 @@
   .item-holder {
     display: flex;
     flex-direction: row;
-    margin-top: 2vmin;
-    margin-bottom: 2vmin;
+    margin-top: 4vmin;
+    margin-bottom: 4vmin;
   }
 
   .icon {

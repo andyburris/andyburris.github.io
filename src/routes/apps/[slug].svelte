@@ -1,5 +1,5 @@
 <script context="module">
-  import { apps } from "./_apps.js";
+  import { apps } from "../apps.js";
 
   export function preload({ params, query }) {
     const app = apps.find(
@@ -46,11 +46,11 @@
 
   .app-detail-screenshot {
     margin-right: 4vmin;
-    width: 30vmin;
+    width: 30vh;
     object-fit: cover;
     object-position: 0% 100%;
-    height: calc(30vmin * (16 / 9) * 0.966);
-    border-radius: 1vmin;
+    height: calc(30vh * (16 / 9) * 0.966);
+    border-radius: 1vh;
     flex-shrink: 0;
   }
 </style>
@@ -76,8 +76,8 @@
     {/if}
   </div>
   <AppDetailItem iconSrc="icon-info.svg" title="About" body={app.info} />
-  <AppDetailItem
-    iconSrc="icon-github.svg"
-    title="Github"
-    body="<a href={app.github}>{app.github}</a>" />
+  <AppDetailItem iconSrc="icon-github.svg" title="Github"body="<a href={app.github}>{app.github}</a>" />
+  {#if app.playStore != ""}
+    <AppDetailItem iconSrc="icon-play-store.svg" title="Play Store" body="<a href={app.playStore}>{app.playStore}"/>
+  {/if}
 </div>

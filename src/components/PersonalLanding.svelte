@@ -39,7 +39,7 @@
 
   .accent-bar {
 
-    height: 12px;
+    height: 0.5em;
     left: 0px;
 
     /* Gradient/Main */
@@ -94,6 +94,6 @@
 
   </div>
   <div class="button-holder">
-      <Button class="button" text="See More" iconSrc="/icons/icon-arrow-down.svg" />
+      <!-- <Button class="button" text="See More" iconSrc="/icons/icon-arrow-down.svg" /> -->
   </div>
 </div>
