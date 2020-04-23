@@ -8,10 +8,10 @@
       #0e87a6 57.29%,
       #2282da 100%
     );border-radius:999px;box-shadow:var(--elevation-1);transition:box-shadow 200ms;cursor:pointer}.button.svelte-1ezap1t:hover{box-shadow:var(--elevation-2)}.button.svelte-1ezap1t:active{box-shadow:var(--elevation-4)}.button-icon.svelte-1ezap1t{color:#ffffff;margin-left:16px;width:24px;height:24px}.button-text.svelte-1ezap1t{margin-left:8px;margin-top:16px;margin-bottom:16px;font-weight:600;font-size:18px;color:#ffffff}
-@font-face{font-family:"Volterra";src:url("/fonts/Volterra-Regular.otf")}.accent-bar.svelte-42kr89{height:12px;left:0px;background:linear-gradient(
+@font-face{font-family:"Volterra";src:url("/fonts/Volterra-Regular.otf")}.accent-bar.svelte-4gt5vl{height:0.5em;left:0px;background:linear-gradient(
       174.89deg,
       #008a82 0%,
       #0e87a6 57.29%,
       #2282da 100%
-    )}.landing.svelte-42kr89{display:flex;flex-direction:column;justify-content:space-between;height:100vh;width:100%;overflow:hidden;background-color:white}.landing-title.svelte-42kr89{margin-left:16vmin}p.svelte-42kr89{font-family:"Volterra", Helvetica, sans-serif;font-size:20vmin;color:#1f1f1f;line-height:1;margin:0px;padding:0px}.button-holder.svelte-42kr89{margin-bottom:8vmin;display:flex;justify-content:center}
+    )}.landing.svelte-4gt5vl{display:flex;flex-direction:column;justify-content:space-between;height:100vh;width:100%;overflow:hidden;background-color:white}.landing-title.svelte-4gt5vl{margin-left:16vmin}p.svelte-4gt5vl{font-family:"Volterra", Helvetica, sans-serif;font-size:20vmin;color:#1f1f1f;line-height:1;margin:0px;padding:0px}.button-holder.svelte-4gt5vl{margin-bottom:8vmin;display:flex;justify-content:center}
 .apps.svelte-lor4zx{margin-top:4vmin}a.svelte-lor4zx{text-decoration:none}
